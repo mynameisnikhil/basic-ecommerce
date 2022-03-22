@@ -1,0 +1,85 @@
+export const AppleData = [
+         {
+           indexValue : 1,
+           title:
+             "Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) MQD32HN/A A1466\xa0\xa0(13.3 inch, Silver, 1.35 kg)",
+           rating: "4.7",
+           reviews: "21,463 Ratings\xa0&\xa02,484 Reviews",
+           specialDiscount: "Extra ₹8000 discount",
+           sellingPrice: "₹59,990",
+           scratchedPrice: "₹84,900",
+           discountPercentage: "29% off",
+           description: "",
+           highlightsList: [
+             "Stylish &amp; Portable Thin and Light Laptop",
+             "  13.3 inch HD+ LED Backlit Display",
+             "Light Laptop without Optical Disk Drive"
+           ],
+           Brands: "Apple",
+           Specification: {
+             Brands: "Apple",
+             "Sales Package":
+               "Laptop, Battery, Power Adaptor, User Guide, Warranty Documents",
+             "Model Number": "MQD32HN/A A1466",
+             "Part Number": "MQD32HN/A",
+             Series: "MacBook Air",
+             Color: "Silver",
+             Type: "Thin and Light Laptop",
+             "Suitable For": "Travel & Business, Processing & Multitasking",
+             "Battery Backup": "Upto 12 hours",
+             "Power Supply": "45 W MagSafe 2 Power Adapter",
+             "MS Office Provided": "No",
+             ProcessorBrand: "Intel",
+             ProcessorName: "Core i5",
+             ProcessorGeneration: "5th Gen",
+             SSD: "Yes",
+             SSDCapacity: "128 GB",
+             RAM: "8 GB",
+             RamType: "DDR3",
+             "Clock Speed": "1.8 GHz with Turbo Boost Upto 2.9 GHz",
+             "RAM Frequency": "1600 MHz",
+             Cache: "3 MB",
+             GraphicsProcessor: "Intel Integrated HD 6000",
+             "OS Architecture": "64 bit",
+             OperatingSystem: "Mac OS Sierra",
+             "System Architecture": "64 bit",
+             "Mic In": "Yes",
+             "USB Port": "2 x USB 3.0, 2 x Thunderbolt 2.0",
+             "Multi Card Slot": "SDXC Card Reader",
+             Touchscreen: "No",
+             ScreenSize: "33.78 cm (13.3 inch)",
+             "Screen Resolution": "1440 x 900 Pixel",
+             "Screen Type": "HD+ LED Backlit Display",
+             Speakers: "Built-in Speakers",
+             "Internal Mic": "Dual Microphones",
+             "Sound Properties": "Stereo Speakers",
+             "Wireless LAN": "IEEE 802.11ac",
+             Bluetooth: "v4.0",
+             Dimensions: "325 x 227 x 17 mm",
+             Weight: "1.35 kg",
+             "Disk Drive": "Not Available",
+             "Web Camera": "720p FaceTime HD Camera",
+             Keyboard: "Full-size Backlit Keyboard",
+             BacklitKeyboard: "Yes",
+             "Pointer Device": "Multi-touch Trackpad",
+             "Included Software":
+               "Built-in Apps: Siri, Safari, App Store, iMovie, GarageBand, Keynote, FaceTime, iBooks, iTunes",
+             "Additional Features": "Lithium Polymer Battery",
+             "Warranty Summary": "1 Year Carry In Warranty",
+             "Warranty Service Type": "Carry In",
+             "Covered in Warranty": "Manufacturing Defects",
+             "Not Covered in Warranty": "Physical Damages",
+             "Domestic Warranty": "1 Year",
+             "International Warranty": "1 Year"
+           },
+           images: [
+             "https://rukminim1.flixcart.com/image/352/352/jsnjbm80/computer/j/8/c/apple-na-thin-and-light-laptop-original-imafe6f78hur4jbh.jpeg?q=70",
+             "https://rukminim1.flixcart.com/image/352/352/jsnjbm80/computer/j/8/c/apple-na-thin-and-light-laptop-original-imafe6f78hur4jbh.jpeg?q=70",
+             "https://rukminim1.flixcart.com/image/352/352/jsnjbm80/computer/j/8/c/apple-na-thin-and-light-laptop-original-imafe6f78hur4jbh.jpeg?q=70",
+             "https://rukminim1.flixcart.com/image/352/352/jsnjbm80/computer/j/8/c/apple-na-thin-and-light-laptop-original-imafe6f78hur4jbh.jpeg?q=70",
+             "https://rukminim1.flixcart.com/image/352/352/jsnjbm80/computer/j/8/c/apple-na-thin-and-light-laptop-original-imafe6f78hur4jbh.jpeg?q=70"
+           ]
+         }
+       ]
+
+

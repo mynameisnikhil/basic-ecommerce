@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+body {
+  background-color: #f1f3f6;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 10px 10px;
+  width: 25%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 5px 7px rgb(202, 202, 202);
+}
+.container > * {
+  border-bottom: 1px solid black;
+}
+
+.top-title-clear {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 10px 5px 10px;
+}
+
+.top-title-clear > h3 {
+  font-size: 25px;
+  flex: 4;
+  margin-bottom: 5px;
+}
+
+.top-title-clear a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 2px;
+}
+
+.filterapplied p {
+  margin: 0px 6px 6px 0px;
+  padding: 2px 10px 2px 10px;
+  background-color: rgb(55, 0, 255);
+  border-radius: 12px;
+  color: white;
+}
+
+.filterapplied span {
+  cursor: pointer;
+}
+.filterapplied {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  height: 0;
+  overflow: hidden;
+}
+
+.filterOpen {
+  height: fit-content;
+  transition: ease 1s;
+}
+
+.filtertext {
+  margin-left: 10px;
+  margin: 0px 0px 10px;
+}
+
+.pricerange {
+  padding: 10px 10px 5px 10px;
+}

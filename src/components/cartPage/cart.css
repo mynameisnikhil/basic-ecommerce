@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cart-container{
+    display: flex;
+    padding: 5px;
+
+
+}
+.cart-items-container{
+flex: 3;
+margin : 5px;
+box-shadow: 1px 1px 1px 1px rgba(160, 160, 255, 0.2);
+
+}
+
+.cart-item {
+display: flex;
+flex-wrap: wrap;
+padding-top: 20px;
+padding-bottom: 10px;
+justify-content: space-between;
+border-bottom: 1px solid rgb(167, 167, 167);
+
+}
+
+
+.item-piece-details{
+    display: flex;
+    flex-basis: 60%;
+    
+    
+
+    
+}
+
+.delivery-address-details{
+    padding: 10px;
+    flex-basis: 40%;
+}
+
+.item-details{
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+.item-piece{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width : 100px;
+    height: fit-content;
+    
+
+}
+
+
+.quantity-input{
+    width: 30px;
+    text-align: center;
+    
+}
+.item-piece > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.quantity-selector{
+    display: flex;
+}
+
+.remove-btn {
+
+    color: white;
+    margin-top: 10px;
+    background-color: green;
+
+    border: 1px dotted greenyellow;
+
+}
+
+.cart-price-container{
+    flex: 1.3;
+    margin : 10px;
+
+}
+
+
+.upper-title{
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px 1px rgba(160, 160, 255, 0.2);
+
+}
+
+.lower-title{
+    padding: 10px 15px 10px 15px ;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgba(160, 160, 255, 0.2);
+    
+}
+.checkout-button-container {
+    width: 68.3%;
+    box-shadow: 1px 1px 1px 1px rgba(160, 160, 255, 0.3);
+
+}
+.checkout-button{
+    height: 80%;
+    width: 200px;
+    background-color: rgb(23, 99, 0);
+    border: none;
+    color: white;
+    font-size: 14px;
+    
+
+}
+
+
+.saving-detail{
+    padding: 20px;
+}
+
+@media screen and (max-width : 768px){
+    .cart-container{
+        display: block;
+    }
+    .item-piece-details{
+        flex-basis: auto;
+    }
+    .delivery-address-details{
+        flex-basis: auto;
+    }
+    .checkout-button-container{
+        width: auto ;
+    }
+    .checkout-button{
+        width : auto;
+    }
+}

@@ -1,0 +1,27 @@
+.bodyWrapper {
+  transform: translateX(0);
+  transition: 0.5s ease-in;
+}
+
+.menuWrapper {
+  height: 100vh;
+  display: none;
+  transform: translateX(-70vw);
+  position: fixed;
+  transition: 0.5s ease-in;
+}
+
+.bodySlide {
+  transform: translateX(70vw);
+
+}
+
+.menuSlide{
+  transform: translateX(0vw);
+
+}
+@media only screen and (max-width: 768px) {
+  .menuWrapper {
+    display: block;
+  }
+}
